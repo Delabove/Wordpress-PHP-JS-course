@@ -7,3 +7,6 @@ greet("John", "green");
 greet("Jane", "pink");
 ?>
 
+<h1><?php bloginfo(); ?></h1>
+<p><?php bloginfo('description'); ?></p>
+
