@@ -33,4 +33,5 @@ greet("Jane", "pink");
     }
 
 
-get_footer()?>
+get_footer();
+?>
