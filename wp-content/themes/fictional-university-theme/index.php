@@ -11,10 +11,16 @@ greet("Jane", "pink");
 <p><?php bloginfo('description'); ?></p> -->
 
 <?php
-
     $names = array('DeLayne', 'Grayson', 'Tuck', 'Mia');
+    $count = 1;
+    while($count < 101){
+        echo "<li>$count</li>";
+        $count++;
 
+    }
 ?>
 
 <p>Hello, <?php echo $names[2]; ?>!</p>
+
+
 
