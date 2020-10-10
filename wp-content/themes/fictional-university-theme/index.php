@@ -10,6 +10,7 @@ greet("Jane", "pink");
 <h1><?php bloginfo(); ?></h1>
 <p><?php bloginfo('description'); ?></p> -->
 
+<!--
 <?php
     $names = array('DeLayne', 'Grayson', 'Tuck', 'Mia');
     $count = 0;
@@ -19,8 +20,17 @@ greet("Jane", "pink");
 
     }
 ?>
+<p>Hello, <?php echo $names[2]; ?>!</p> -->
 
-<p>Hello, <?php echo $names[2]; ?>!</p>
+<?php
+    while(have_posts()){
+        the_post(); ?>
+
+    <h2> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <?php the_content(); ?>
+    <hr>
+        <?php
+    }
 
 
-
+?>
