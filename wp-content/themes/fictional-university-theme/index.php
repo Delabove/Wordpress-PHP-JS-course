@@ -1,8 +1,9 @@
 <?php
-    function myFirstFunction() {
-     echo "<p>Hello, this is my first function.</p>";
+    function greet($name, $color) {
+     echo "<p>Hi, my $name is blank and my favorite color is $color.</p>";
     }
 
-myFirstFunction();
-myFirstFunction()
+greet("John", "green");
+greet("Jane", "pink");
 ?>
+
