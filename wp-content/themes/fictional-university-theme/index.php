@@ -1,1 +1,8 @@
-This is the new theme!
+<?php
+    function myFirstFunction() {
+     echo 2+2;
+    }
+
+myFirstFunction();
+myFirstFunction()
+?>
