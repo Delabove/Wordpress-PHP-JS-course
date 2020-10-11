@@ -7,5 +7,5 @@ $myname = 'DeLayne';
 <?php echo 5*5?>
 
 
-<h2>About Wordpress</h2>
+<h2>About <?php echo $myname?></h2>
 
